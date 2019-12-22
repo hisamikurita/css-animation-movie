@@ -1,0 +1,58 @@
+/* animation02 style */
+.animation05{
+    opacity: 0;
+}
+.animation05[data-state=active] {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 999;
+    .animation05{
+        &_common_bg01{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            transform: scale3d(1,1,1);
+            transform-origin: bottom left;
+        }
+        &_common_bg02{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 0;
+            height: 0;
+            transform: scale3d(1,1,1);
+            transform-origin: top right;
+        }
+        &_bg01{
+            border-top: 100vh solid transparent;
+            border-left: 100vw solid #fe4949;
+            animation: animation05_bg01 2.0s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        }
+        &_bg02{
+            border-bottom: 100vh solid transparent;
+            border-right: 100vw solid #fe4949;
+            animation: animation05_bg01 2.0s cubic-bezier(0.19, 1, 0.22, 1) forwards;
+        }
+        &_bg03{
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, #222, #000);
+        }
+    }
+}
+
+@keyframes animation05_bg01{
+    0%{
+        transform: scale3d(1,1,1);
+    }
+    100%{
+        transform: scale3d(0,0,0);
+    }
+}

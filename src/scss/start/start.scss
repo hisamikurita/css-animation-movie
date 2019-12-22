@@ -1,0 +1,18 @@
+.start{
+    &_btn01{
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #b32f5c;
+        padding: .15rem .5rem;
+        color: #fff;
+        font-size: 0.18rem;
+        border-radius: .5rem;
+        z-index: 9999;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
