@@ -1,6 +1,6 @@
 # css-animation-movie
 
-● <a href="https://hisamikurita.github.io/css_animation-movie/dist/">DEMO</a>
+● <a href="https://hisamikurita.github.io/css-animation-movie/dist/">DEMO</a>
 
 ![css-animation-movie01](https://user-images.githubusercontent.com/47776346/71318839-a43a2a80-24d9-11ea-8819-9d07291b9376.png)
 
