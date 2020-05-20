@@ -11,3 +11,12 @@
 ![css-animation-movie04](https://user-images.githubusercontent.com/47776346/71318858-ccc22480-24d9-11ea-9b17-f78ba7f06ebb.png)
 
 ![css-animation-movie05](https://user-images.githubusercontent.com/47776346/71318861-d6e42300-24d9-11ea-9f1f-988b93d5c114.png)
+
+## Usage
+* Clone repository<br>
+* Install Node.js<br>
+* Run following commands<br>
+```
+  npm install  
+  npx gulp  
+```
